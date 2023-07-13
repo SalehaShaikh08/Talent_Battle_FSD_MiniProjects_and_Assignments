@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    
+</head>
+<body>
+    <h1 style="text-align:center; color: darkred;" > Employee Registration Form</h1>
+    <h3><marquee style="color: red;"> Before Applying For Job Please Register Yourself!!!</marquee></h3><br><br><br><br><br>
+    <table align="center" width="45%">
+    <form>
+        <tr>
+            <td>
+                <b>Firstname:</b>
+            </td>
+            <td>
+                <input type="text" placeholder="Your Firstname">
+            </td>
+            <td>
+               <b> Lastname:</b>
+            </td>
+            <td>
+                <input type="text" placeholder="Your Lastname">
+            </td>
+            </tr>
+            <tr>
+                <td><b>E-mail:</b></td>
+                <td><input type="text" placeholder="xyz@abc.com"></td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Gender:</b>
+                </td>
+                <td>
+                    <input type="radio" name="Male"><b>Male</b>
+                    <input type="radio" name="Female"><b>Female</b>
+                    <input type="radio" name="Other"><b>Other</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Date Of Birth:</b>
+                </td>
+                <td>
+                    <input type="date" placeholder="DD/MM/YY">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Contact Number:</b>
+                </td>
+                <td>
+                    <input type="number" placeholder="+91-XXXXXXXXXX" maxlength="12">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Marital status:</b>
+                </td>
+                <td>
+                    <input type="radio" name="Married"><b>Married</b>
+                    <input type="radio" name="Unmarried"><b>Unmarried</b>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td><textarea rows="5" cols="15" placeholder="Street address"></textarea></td>
+            </tr>
+            <tr>
+                <td><b> City :</b></td>
+            <td>
+                <input type="text" placeholder=" City">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Zip Code:</b>
+                </td>
+                <td>
+                    <input type="number" placeholder="400XXX">
+                </td>
+            </tr>
+              <tr>
+                <td>
+                    <b>Country</b>
+                </td>
+                <td>
+                    <label for="Country">Please Select</label>
+    
+                    <select name="Country" id="Country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Autralia">Australia</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <b>Upload Identification Proof:</b>
+                </td>
+                <td>
+                    <input type="file" placeholder="Pan Card/AadharCard">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <b>Upload Photo For ID Card:</b>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <b>Upload CV:</b>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr align="center">
+                <td>
+                    <button type="submit" (onclick="You have successfully registered!!") value="Submit">Submit</button></td>
+                    <td><button type="reset" value="Reset">Reset</button></td>
+              </tr>
+             
+    </form>
+    </table>
+</body>
+</html>
